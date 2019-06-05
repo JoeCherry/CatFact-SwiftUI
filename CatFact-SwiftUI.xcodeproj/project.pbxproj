@@ -15,6 +15,10 @@
 		75AAD0B922A758FD00323AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AAD0B722A758FD00323AE0 /* LaunchScreen.storyboard */; };
 		75AAD0C422A758FD00323AE0 /* CatFact_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAD0C322A758FD00323AE0 /* CatFact_SwiftUITests.swift */; };
 		75AAD0CF22A758FD00323AE0 /* CatFact_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAD0CE22A758FD00323AE0 /* CatFact_SwiftUIUITests.swift */; };
+		75AAD0DD22A7591200323AE0 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAD0DC22A7591200323AE0 /* AppView.swift */; };
+		75AAD0DF22A7595D00323AE0 /* AppPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAD0DE22A7595D00323AE0 /* AppPresenter.swift */; };
+		75AAD0E122A7597D00323AE0 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAD0E022A7597D00323AE0 /* CatFact.swift */; };
+		75AAD0E322A759B000323AE0 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAD0E222A759B000323AE0 /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		75AAD0CA22A758FD00323AE0 /* CatFact-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CatFact-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AAD0CE22A758FD00323AE0 /* CatFact_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		75AAD0D022A758FD00323AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AAD0DC22A7591200323AE0 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		75AAD0DE22A7595D00323AE0 /* AppPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPresenter.swift; sourceTree = "<group>"; };
+		75AAD0E022A7597D00323AE0 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		75AAD0E222A759B000323AE0 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				75AAD0B722A758FD00323AE0 /* LaunchScreen.storyboard */,
 				75AAD0BA22A758FD00323AE0 /* Info.plist */,
 				75AAD0B422A758FD00323AE0 /* Preview Content */,
+				75AAD0DC22A7591200323AE0 /* AppView.swift */,
+				75AAD0DE22A7595D00323AE0 /* AppPresenter.swift */,
+				75AAD0E022A7597D00323AE0 /* CatFact.swift */,
+				75AAD0E222A759B000323AE0 /* ApiService.swift */,
 			);
 			path = "CatFact-SwiftUI";
 			sourceTree = "<group>";
@@ -267,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75AAD0DD22A7591200323AE0 /* AppView.swift in Sources */,
+				75AAD0DF22A7595D00323AE0 /* AppPresenter.swift in Sources */,
+				75AAD0E122A7597D00323AE0 /* CatFact.swift in Sources */,
 				75AAD0AD22A758FA00323AE0 /* AppDelegate.swift in Sources */,
 				75AAD0AF22A758FA00323AE0 /* SceneDelegate.swift in Sources */,
+				75AAD0E322A759B000323AE0 /* ApiService.swift in Sources */,
 				75AAD0B122A758FA00323AE0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
